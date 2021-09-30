@@ -18,3 +18,6 @@ Route::get('/', function () {
 //Route::get('hello',function(){ return '<html><body><h1>hello</h1><p>My name is Yuki</p></body></html>';});
 Route::get('hello','HelloController@index');
 Route::get('morning','HelloController@ondex');
+Route::get('home','MyController@home');
+Route::get('zikosyoukai','MyController@self');
+Route::get('otoiawase','MyController@help');
