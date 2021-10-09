@@ -24,7 +24,8 @@
             <div id="container">
                     <div class="post clearfix">
                         <div id="main">
-                            <form action="otoiawase" method="get" name="otoiawase">
+                            <form action="otoiawase" method="post" name="otoiawase">
+                                @csrf
                             <tr>
                              <td align="right"><b class="koumoku">名前</b></td>                
                          <td><input type="text" name="name" size="65" maxlength="65"></td>

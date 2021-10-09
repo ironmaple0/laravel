@@ -17,5 +17,11 @@ class MyController extends Controller
      public function help(){
          return view('otoiawase');
      }
+
+     public function store(Request $request){
+         dump($request->name);
+         dump($request->sex);
+         dd($request->naiyou);
+     }
 }
 
